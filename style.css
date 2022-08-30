@@ -1,0 +1,203 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: ffff;
+}
+
+header {
+  background-color: aliceblue;
+  width: 1000px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+
+header .header-brand {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 600;
+  color: red;
+  padding: 0px 20px 20px 0;
+  margin: 31px 0;
+  text-align: left;
+  float: left;
+}
+header nav ul {
+  padding: 0 10px;
+  margin: 35px 0;
+  float: left;
+}
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 16px;
+}
+header nav ul li a {
+  font-family: monospace;
+  font-size: 16px;
+  color: #111;
+}
+/*Web Development Course Section*/
+.webdevelopment {
+  background-color: azure;
+  padding: 0 20px 70px;
+  width: 960px;
+  font-family: arial;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+.skills {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 200;
+  color: darkgrey;
+  padding: 0px 20px 20px 0px;
+  margin: 31px 0;
+  text-align: left;
+  float: left;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+.skillslist li {
+  padding: 0 20px 15px;
+  margin: 31px 0;
+  float: left;
+  list-style: none; /*to remove bullets*/
+  padding: 10;
+  display: inline-block;
+  background-color: beige;
+  align-items: center;
+}
+
+/*Web dev course (Ruby on rails)*/
+.Ruby {
+  width: 300px;
+  height: 300px;
+  background-color: aliceblue;
+  margin-left: 200px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.rubytext {
+  font-family: sans-serif;
+  float: left;
+}
+
+/*Styling the itemized course list*/
+
+.wrapper {
+  margin-left: 210px;
+  margin-top: 20px;
+  align-items: center;
+  width: 1000px;
+  height: 1500px;
+  background-color: ghostwhite;
+  border-radius: 2%;
+}
+
+.pinwrapper {
+  margin-left: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.course {
+  height: 350px;
+  width: 230px;
+  float: left;
+  margin: 4px;
+  text-align: center;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #fffff;
+  font-family: sans-serif;
+}
+
+.logo {
+  width: 80px;
+  display: block;
+  margin: 0px auto;
+  vertical-align: middle;
+}
+/*CSS FOR SLIDE LIBRARY*/
+
+.nav-slide {
+  background-color: whitesmoke;
+  width: 300px;
+  margin-left: 200px;
+}
+.nav-slide a:hover {
+  background-color: azure;
+}
+.nav-slide ul {
+  list-style: none;
+  padding: 20px;
+}
+/*This hides the menu subitems*/
+.nav-slide ul li ul li {
+  display: none;
+}
+
+.nav-slide-ul li ul :hover li {
+  display: block;
+}
+/*CSS for Refactory - dashboard*/
+.container {
+  width: 1000px;
+  height: 1000px;
+  float: left;
+  margin-left: 200px;
+  background-color: whitesmoke;
+}
+.col1 {
+  width: 300px;
+  height: 1000px;
+  float: left;
+  padding: 20px;
+  background-color: floralwhite;
+}
+.col2 {
+  text-align: right;
+  background-color: whitesmoke;
+  height: 1000px;
+  width: 1000px;
+}
+
+.logo2 {
+  border-radius: 50%;
+  height: 80px;
+  vertical-align: middle;
+  margin-left: 0;
+}
+
+.logo-div {
+  text-align: center;
+  float: left;
+  margin: 10px;
+}
+.col1 h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 0px;
+}
+
+.col2 h3 {
+  text-align: left;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-top: 29px;
+}
+
+.footer-nav-bar nav {
+  float: left;
+  margin-left: 200px;
+  background-color: whitesmoke;
+}
+
+.footer-nav-bar nav ul {
+  list-style: none;
+}
+/************* Footer CSS**************************/
